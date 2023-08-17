@@ -4,7 +4,7 @@
       <h2 class="nav-title">{{ site.nav_title }}</h2>
     </a>
     <ul>
-    {% for item in site.data.samplelist.docs %}
+    {% for item in site.data.samplelist.nav %}
       {% if item.newpage %}
         <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
       {% else %}
