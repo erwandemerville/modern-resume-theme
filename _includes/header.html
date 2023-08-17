@@ -6,9 +6,9 @@
     <ul>
     {% for item in site.nav %}
       {% if item.newpage %}
-        <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+      {% if forloop.index == 1 %}<li>{% endif %}<a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>{% unless forloop.last %}<li>{% endunless -%}
       {% else %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% if forloop.index == 1 %}<li>{% endif %}<a href="{{ item.url }}">{{ item.title }}</a></li>{% unless forloop.last %}<li>{% endunless -%}
       {% endif %}
     {% endfor %}
     </ul>
