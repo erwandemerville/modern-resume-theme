@@ -47,12 +47,12 @@ $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   li {
     @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
+    display: block;
     opacity: .6;
-    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 
     &:last-child {
-      padding-right: 0;
+      margin-right: 0;
     }
 
     &:hover,
@@ -80,7 +80,8 @@ $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
     }
 
     li {
-      padding: 0 2rem 0 0;
+      display: inline-block;
+      margin: 0 2rem 0 0;
     }
   }
 }
