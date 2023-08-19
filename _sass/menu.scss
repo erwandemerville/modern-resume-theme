@@ -27,7 +27,7 @@ $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   &-title {
     @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
+    display: block;
     margin: 0;
     padding-right: .2rem;
 
@@ -71,6 +71,10 @@ $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   .nav {
     &-container {
       text-align: left;
+    }
+
+    &-title {
+      display: inline-block;
     }
 
     ul {
