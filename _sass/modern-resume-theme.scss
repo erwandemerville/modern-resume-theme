@@ -3,9 +3,10 @@
 @import "type";
 @import "dark";
 @import "icons";
-@import "_variables";
-@import "_navbar";
-@import "_navs";
+@import "bootstrap/mixins";
+@import "bootstrap/variables";
+@import "bootstrap/navbar";
+@import "bootstrap/navs";
 //@import "menu";
 
 .header-right p {
