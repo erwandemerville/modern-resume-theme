@@ -1,4 +1,4 @@
-<nav class="nav">
+<!-- <nav class="nav">
   <div class="nav-container">
     <a href="{{ site.baseurl }}/">
       <h2 class="nav-title">{{ site.nav_title }}</h2>
@@ -13,7 +13,37 @@
     {% endfor %}
     </ul>
   </div>
-</nav>
+</nav> -->
+<div class="container navbar-container">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  <span class="sr-only">Toggle navigation</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+      <a class="navbar-brand" href="/jekyll-doc-theme/">
+          <span><img src="/jekyll-doc-theme/assets/img/logonav.png" alt="Logo"></span> Jekyll Doc Theme
+      </a>
+  </div>
+  <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+          <li><a href="/jekyll-doc-theme/docs/home/">Docs</a></li>
+          <li><a href="/jekyll-doc-theme/blog/2017/05/03/jekyll-doc-theme/">Blog</a></li>
+      </ul>
+      <div class="navbar-right">
+          <form class="navbar-form navbar-left">
+              <div class="form-group has-feedback">
+                  <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" class="form-control tt-hint" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none;" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr"><input id="search-box" type="search" class="form-control tt-input" placeholder="Search..." autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0.1px; text-indent: 0px; text-rendering: optimizelegibility; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-pages"></div></div></span>
+                  <i class="fa fa-search form-control-feedback"></i>
+              </div>
+          </form>
+          <ul class="nav navbar-nav">
+              <li><a href="https://github.com/aksakalli/jekyll-doc-theme"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          </ul>
+      </div>
+  </div>
+</div>
 <div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
