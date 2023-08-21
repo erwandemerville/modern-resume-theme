@@ -3,7 +3,10 @@
 @import "type";
 @import "dark";
 @import "icons";
-@import "menu";
+@import "_variables";
+@import "_navbar";
+@import "_navs";
+//@import "menu";
 
 .header-right p {
   margin-bottom: 3px;
